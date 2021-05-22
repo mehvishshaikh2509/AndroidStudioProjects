@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/sky_blue"
+    tools:context=".MainActivity2">
+
+    <TextView
+        android:id="@+id/welcome_name"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/bname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Enter Book Name"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/book_count"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Total Count Of Books"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/cost_book"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Cost Of Book"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Next"
+        android:onClick="next"/>
+
+</LinearLayout>
